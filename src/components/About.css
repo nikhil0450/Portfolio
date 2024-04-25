@@ -1,0 +1,12 @@
+.photo-section {
+    text-align: center;
+}
+
+.photo-section img {
+    max-width: 100%;
+    border-radius: 50%; /* Make the photo circular */
+}
+
+.bio-section {
+    padding-left: 30px; /* Adjust as needed */
+}

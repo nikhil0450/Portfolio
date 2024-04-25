@@ -1,0 +1,16 @@
+/* Skills.css */
+
+.skills-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow icons to wrap to the next line if needed */
+    margin-top: 20px;
+}
+
+.skill-icon {
+    width: 100px; /* Adjust width of skill icons */
+    height: 100px; /* Adjust height of skill icons */
+    margin: 10px; /* Add margin around each icon */
+    object-fit: cover; /* Ensure icons maintain aspect ratio */
+}

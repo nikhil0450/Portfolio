@@ -1,0 +1,43 @@
+/* Home.css */
+
+.home-content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.home-subtitle {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.home-links {
+    display: flex;
+    justify-content: center;
+}
+
+.home-link {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center align horizontally */
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.home-link:hover {
+    color: #007bff;
+}
+
+.home-icon {
+    font-size: 2rem; /* Increase icon size */
+    margin-right: 5px; /* Add spacing between icon and text */
+}
