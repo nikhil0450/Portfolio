@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 
-function ProjectCard({ title, description, deployedLink }) {
+function ProjectCard({ title, description, githubFELink, githubBELink, deployedLink }) {
     const [showFullDescription, setShowFullDescription] = useState(false);
 
     const toggleDescription = () => {
@@ -20,9 +20,21 @@ function ProjectCard({ title, description, deployedLink }) {
                         <Button variant="link" onClick={toggleDescription}>Read More</Button>
                     )}
                     {showFullDescription && (
-                        <Button variant="link" onClick={toggleDescription}>Read Less</Button>
+                        <>
+                            <Button variant="link" onClick={toggleDescription}>Read Less</Button>
+                            {githubFELink && (
+                            <div> 
+                                <Button className="project-button m-1" variant="primary" href={githubFELink} target="_blank">FrontEnd Source Code</Button>
+                            </div>
+                            )}
+                            {githubBELink && (
+                            <div> 
+                                <Button className="project-button m-1" variant="primary" href={githubBELink} target="_blank">BackEnd Source Code</Button>
+                            </div>
+                            )}
+                        </>
                     )}
-                    <Button className="project-button" variant="primary" href={deployedLink} target="_blank">View Deployed Project</Button>
+                    <Button className="project-button m-1" variant="primary" href={deployedLink} target="_blank">View Deployed Project</Button>
                 </Card.Body>
             </Card>
         </div>

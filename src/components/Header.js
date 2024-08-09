@@ -4,9 +4,9 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaFilePdf  } from 'react-icons/fa';
 
 function Header() {
-    const [activeLink, setActiveLink] = useState('home'); // Initialize active link state
+    const [activeLink, setActiveLink] = useState('home'); 
 
-    const resumeUrl = 'https://drive.google.com/file/d/17OqD012s3ibu_6m9UVV7U9t6tcyCkHdb/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/1zBB8jSU5ikbCFcL2XjPocN8k8Le3fxaT/view?usp=sharing';
 
     const handleResumeClick = () => {
         window.open(resumeUrl, '_blank');
