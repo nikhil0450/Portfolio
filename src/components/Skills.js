@@ -5,7 +5,9 @@ import CSS from "./skillSet/CSS.png"
 import JS from "./skillSet/JS.png"
 import REACTJS from "./skillSet/React.png"
 import NODEJS from "./skillSet/NodeJs.png"
+import NPM from "./skillSet/Npm.png"
 import MONGODB from "./skillSet/mongoDB.png"
+import REDUX from "./skillSet/Redux.png"
 import MYSQL from "./skillSet/MySQL.png"
 import BOOTSTRAP from "./skillSet/Bootstrap.png"
 import EXPRESSJS from "./skillSet/ExpressJs.png"
@@ -28,7 +30,9 @@ function Skills() {
                     <img src={JS} alt="JavaScript" className="skill-icon" title="JavaScript" />
                     <img src={REACTJS} alt="React" className="skill-icon" title="React" />
                     <img src={NODEJS} alt="Node.js" className="skill-icon" title="Node.js" />
+                    <img src={NPM} alt="npm" className="skill-icon" title="npm" />
                     <img src={MONGODB} alt="MongoDB" className="skill-icon" title="MongoDB" />
+                    <img src={REDUX} alt="Redux" className="skill-icon" title="Redux" />
                     <img src={EXPRESSJS} alt="Express Js" className="skill-icon" title="Express Js" />
                     <img src={MYSQL} alt="MySQL" className="skill-icon" title="MySQL" />
                     <img src={BOOTSTRAP} alt="BootStrap" className="skill-icon" title="BootStrap" />

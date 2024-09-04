@@ -24,17 +24,17 @@ function ProjectCard({ title, description, githubFELink, githubBELink, deployedL
                             <Button variant="link" onClick={toggleDescription}>Read Less</Button>
                             {githubFELink && (
                             <div> 
-                                <Button className="project-button m-1" variant="primary" href={githubFELink} target="_blank">FrontEnd Source Code</Button>
+                                <Button className="project-button m-1 p-1" variant="primary" href={githubFELink} target="_blank">FrontEnd Source Code</Button>
                             </div>
                             )}
                             {githubBELink && (
                             <div> 
-                                <Button className="project-button m-1" variant="primary" href={githubBELink} target="_blank">BackEnd Source Code</Button>
+                                <Button className="project-button m-1 p-1" variant="primary" href={githubBELink} target="_blank">BackEnd Source Code</Button>
                             </div>
                             )}
                         </>
                     )}
-                    <Button className="project-button m-1" variant="primary" href={deployedLink} target="_blank">View Deployed Project</Button>
+                    <Button className="project-button m-1 p-1" variant="primary" href={deployedLink} target="_blank">View Deployed Project</Button>
                 </Card.Body>
             </Card>
         </div>
