@@ -36,12 +36,13 @@ function Projects() {
             githubFELink="https://github.com/nikhil0450/Diet-Suggestion-App-Frontend.git"
             githubBELink="https://github.com/nikhil0450/Diet-Suggestion-App-Backend.git"
           />
-          <ProjectCard
-            title="React Redux Notes App"
-            description="Developed a feature-rich Notes Application using React and Redux, enabling users to efficiently manage and organize notes. Implemented state management with Redux for seamless data flow and utilized best practices for component design. Deployed the project on Netlify, showcasing proficiency in frontend development and modern JavaScript libraries."
-            deployedLink="https://new-notes-app.netlify.app/"
-            githubFELink="https://github.com/nikhil0450/notestask2.git"
-          />
+            <ProjectCard
+              title="Job Posting App"
+              description="Designed and developed a comprehensive Job Posting Application using the MERN stack. The platform enables users to sign up, log in, and manage job posts. Users can view job postings by others, create, update, and delete their own posts. Integrated secure JWT-based authentication and protected routes for better user experience. The frontend is built with React and Bootstrap for responsive design, while the backend uses Node.js and MongoDB for robust data handling."
+              deployedLink="https://myjobs-mern.netlify.app/"
+              githubFELink="https://github.com/nikhil0450/job-posting-frontend.git"
+              githubBELink="https://github.com/nikhil0450/job-posting-backend.git"
+            />
         </div>
       </Container>
     </section>
